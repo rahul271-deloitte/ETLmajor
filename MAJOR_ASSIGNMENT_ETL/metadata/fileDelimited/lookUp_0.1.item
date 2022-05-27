@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_d2fAUNzMEeyXJYCRsB5SQA" name="lookUp" dataPackage="_d2fAUdzMEeyXJYCRsB5SQA" Server="Localhost 127.0.0.1" FilePath="C:/Users/rahulsharma685/Documents/lookup.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_d2fAUdzMEeyXJYCRsB5SQA" name="default" dataManager="_d2fAUNzMEeyXJYCRsB5SQA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_d2fAUtzMEeyXJYCRsB5SQA" id="_W_M_cNzMEeyXJYCRsB5SQA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d2fAU9zMEeyXJYCRsB5SQA" label="Name" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d2fAVNzMEeyXJYCRsB5SQA" label="SalesChannel" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d2fAVdzMEeyXJYCRsB5SQA" label="Order_Id" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
